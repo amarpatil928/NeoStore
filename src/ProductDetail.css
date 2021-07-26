@@ -1,0 +1,127 @@
+.productDetail {
+    display: flex;
+}
+
+
+.productDetail_tab > div > div > .MuiButton-root{
+    text-transform: none;
+}
+
+.productDetail_tabImage > .MuiButton-label {
+    display: block;
+    align-items: flex-end;
+    height: 70%;
+}
+
+@media screen and (max-width: 500px) {
+
+    .productDetail_tab > div > .PrivateTabIndicator-root-2{
+        bottom: -10px;
+    }
+
+}
+
+.productDetail_tabPanel > div > .MuiTypography-body1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productDetail_imageMagnify {
+    width: 80% !important;
+}
+
+.productDetail_divider {
+    width: 100%;
+    margin-bottom: 16px !important;
+}
+
+.productDetail_bottomLine {
+    padding-bottom: 35px;
+}
+
+.productDetail_heading {
+    font-weight: bold !important;
+    padding-bottom: 10px;
+}
+
+.productDetail_price {
+    color: green;
+}
+
+.productDetail_color {
+    width: 20px;
+    height: 10px;
+    background-color: blue;
+}
+
+.productDetail_bottomPadding {
+    padding-bottom: 20px;
+}
+
+.productDetail_share {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.productDetail_container {
+    width: 100%;
+}
+
+.productDetail_socialShareButtons {
+    padding: 2% !important;
+}
+
+.productDetail_socialShare {
+    display: flex;
+    justify-content: flex-start;
+    padding: 16px 0;
+}
+
+.productDetail_cartButton > .MuiButton-root {
+    color: white;
+    background-color: rgb(0, 172, 237);
+    margin-right: 10px;
+}
+
+
+.productDetail_cartButton > .MuiButton-root:hover {
+    background-color: rgb(0, 172, 237);
+}
+
+.productDetail_rateButton > .MuiButton-root {
+    color: white;
+    background-color: #a52a2a;
+    margin-right: 10px;
+}
+
+.productDetail_rateButton > .MuiButton-root:hover {
+    background-color:#a52a2a;
+}
+
+
+.productDetail_rightAlign {
+    text-align: left;
+}
+
+
+@media screen and (max-width: 375px) {
+
+    .productDetail_socialShare {
+        display: block;
+    }
+
+    .productDetail_cartButton > .MuiButton-root {
+        margin-bottom: 10px;
+    }
+
+    .productDetail_rightAlign {
+        text-align: center;
+    }
+
+    .productDetail_share {
+        justify-content: center;
+    }
+
+}

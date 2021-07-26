@@ -1,0 +1,86 @@
+
+.allProducts {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.allProducts_container {
+    width: 100%;
+    padding-top: 40px;
+}
+
+.allProducts_divider {
+    width: 100%;
+    margin-bottom: 20px !important;
+    margin: 16px 0;
+}
+
+.allProducts_dividerTopMargin {
+    width: 100%;
+    margin-top: 20px !important;
+    margin: 16px 0;
+}
+
+.allProducts_header {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+    padding-top: 10px;
+}
+
+
+.allProducts_text {
+    color: black;
+}
+/* .allProducts_star {
+    color: blue;
+} */
+
+.allProducts_headerWidth {
+    width: 300px;
+}
+
+.allProducts_subHeader {
+    color: rgb(24, 90, 188);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.allProducts_arrows {
+    display: flex;
+    align-items: center;
+}
+
+
+.allProducts_accordion {
+    padding: 10px;
+    width: 100%;
+}
+
+.allProducts_accordion > div > div > .MuiAccordionSummary-content {
+    justify-content: center;
+}
+
+.allProducts_buttons > div > .MuiTypography-displayBlock {
+    display: flex;
+    justify-content: center;   
+}
+
+.allProducts_details > div > div > div > div > .MuiAccordionDetails-root {
+    display: block;
+}
+
+.allProducts_pagination {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.allProducts_accordion > div {
+    margin-bottom: 15px;
+}

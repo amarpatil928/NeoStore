@@ -1,0 +1,61 @@
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+}
+
+.email_title > .MuiTypography-h5 {
+    font-weight: bold;
+}
+
+.email_paddingBt {
+    padding-bottom: 20px !important;
+}
+
+.email_divider {
+    width: 100%;
+    margin-bottom: 20px !important;
+    margin: 16px 0;
+}
+
+.email_card > .MuiPaper-root {
+    background-color: #f5f5f5;
+}
+
+.email_inform {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #dd4b39;
+    font-size: small;
+    padding-bottom: 20px;
+}
+
+.email_button {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.email_button > .MuiButton-contained {
+    background-color: rgb(27, 94, 32);
+    color: white;
+}
+
+.email_button > .MuiButton-contained:hover {
+    background-color: rgb(27, 94, 32);
+}
+
+.email_fieldBtPadding {
+    padding-bottom: 10px !important;
+}
+
+.email_error {
+    color: #dd4b39;
+    font-size: small;
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}

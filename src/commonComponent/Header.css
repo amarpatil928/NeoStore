@@ -1,0 +1,154 @@
+.header {
+    /* height: 60px; */
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header_logo {
+    display: contents;
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 18px;
+    text-decoration: none;
+}
+
+.header_link {
+    text-decoration: none;
+    color: white;
+}
+
+.header_linkCart {
+    text-decoration: none;
+    color: black;
+}
+
+.header_logo_neo {
+    color: white;
+}
+
+.header_logo_store {
+    color: red;
+}
+
+.header_search {
+    display: flex;
+    align-items: center;
+    border-radius: 24px;
+}
+
+.header_searchInput {
+    height: 12px;
+    padding: 10px;
+    border:  none;
+    width: 100%;
+} 
+
+
+.header_icon {
+    position: relative;
+    border-radius: 5px;
+    background-color: white;
+
+}
+
+.search_icon {
+    padding: 4px;
+    position: absolute;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_inputInput {
+    padding: 0 24px;
+}
+
+.header_searchIcon {
+    padding: 5px;
+    height: 22px;
+    background-color: #cd9042;
+}
+
+.header_nav {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+}
+
+.header_optionLine {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.header_option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+.header_cart {
+    width: 85px;
+    height: 32px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+
+}
+
+.header_cartText {
+    font-size: small;
+}
+
+.header_sectionMobile > .MuiIconButton-root {
+    color: white;
+}
+
+@media screen and (min-width: 640px) {
+    .header_sectionMobile {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 639px) {
+    .header_nav {
+        display: none;
+    }
+
+    .header_search {
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header {
+        display: block;
+    }
+    .header_logo{
+        display: flex;
+    }
+    
+}
+
+.header_linkMobile {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.header_avatar > span > .MuiAvatar-root {
+    width: 26px;
+    height: 26px;
+}

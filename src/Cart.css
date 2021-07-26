@@ -1,0 +1,68 @@
+.cart {
+    display: flex;
+    min-height: 650px;
+}
+
+.cart_container {
+    margin-bottom: 16px !important;
+}
+
+
+.cart_image {
+    width: 15%;
+}
+
+.cart_avatar > .MuiAvatar-root {
+    width: 100%;
+    height: 100%;
+}
+
+.cart_button > .MuiIconButton-label {
+    color: #fff;
+    background-color: #f50057;
+    border-radius: 50%;
+}
+
+.cart_quantity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart_input {
+    width: 30px;
+    text-align: center;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+.cart_reviewOrder > .MuiTypography-root {
+    font-weight: bold;
+    text-align: left;
+    padding: 0 25px;
+    padding-bottom: 25px;
+}
+
+.cart_subtotal {
+    display: flex;
+}
+
+.cart_divider {
+    width: 100%;
+    margin-bottom: 20px !important;
+}
+
+.cart_linkCart {
+    text-decoration: none;
+}

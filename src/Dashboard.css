@@ -1,0 +1,25 @@
+
+.dashboard {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dashboard_image {
+    width: 100%;
+    z-index: -1;
+}
+
+.dashboard_container {
+    width: 100%;
+    padding-top: 40px;
+}
+
+.dashboard_header {
+    display: block;
+}
+
+.dashboard_header > .MuiTypography-h6 {
+    font-weight: bold;
+}

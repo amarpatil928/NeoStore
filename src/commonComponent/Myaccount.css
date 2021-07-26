@@ -1,0 +1,22 @@
+.myaccount {
+    display: block;
+}
+
+.myaccount > .MuiTypography-root {
+    padding: 10px;
+    color: #800000;
+}
+
+.myaccount_avatar {
+    display: flex;
+    justify-content: center;
+}
+
+.myaccount_avatar > .MuiAvatar-root {
+    width: 40%;
+    height: 40%;
+}
+
+.myaccount_linkCart {
+    text-decoration: none;
+}

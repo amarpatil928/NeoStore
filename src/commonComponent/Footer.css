@@ -1,0 +1,42 @@
+
+.footer {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-color: #131921;
+}
+
+.footer_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+
+.footer_option {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.footer_text {
+    font-size: small;
+}
+
+.footer_bottom {
+    color: white;
+    font-size: small;
+}
+
+.footer_input {
+    padding: 10px 0;
+}
+
+.footer_button > .MuiButtonBase-root {
+    background-color: white;
+}
+
+.footer_button > .MuiButtonBase-root:hover {
+    background-color: white;
+}

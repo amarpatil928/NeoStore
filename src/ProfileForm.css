@@ -1,0 +1,126 @@
+.profileForm {
+    display: flex;
+    justify-content: center;
+    min-height: 650px;
+    margin: 20px;
+}
+
+.profileForm_container > .MuiTypography-root{
+    font-weight: bold;
+    width: 100%;
+}
+
+.profileForm_paddingBt {
+    padding-bottom: 20px !important;
+}
+
+.profileForm_dividerHeader {
+    width: 100%;
+    margin-bottom: 20px !important;
+}
+
+.profileForm_divider {
+    width: 100%;
+    margin: 16px 0 !important;
+}
+
+.profileForm_profile {
+    display: flex;
+}
+
+.profileForm_profile > div > a > .MuiButton-root {
+    font-weight: bold;
+    text-transform: none;
+    border: none;
+}
+
+.profileForm_profile > div > a > .MuiButton-root:hover {
+    border: 1px solid #3f51b5;
+}
+
+.profileForm_profile > div > .MuiButton-root:hover {
+    border: 1px solid rgba(63, 81, 181, 0.5);
+}
+
+
+.profileForm_list {
+    display: block;
+    text-align: left;
+}
+
+.profileForm_listHeader > .MuiTypography-root {
+    font-weight: bold;
+}
+
+.profileForm_avatarPR {
+    padding-right: 10%;
+}
+
+.profileForm_buttonPDF {
+    margin-top: 20px !important;
+}
+
+.profileForm_innerCard {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profileForm_closeIcon > .MuiButtonBase-root {
+    background-color: rgb(243, 66, 37) !important;
+    color: #fff;
+}
+
+.profileForm_accordion {
+    padding: 10px;
+    width: 100%;
+}
+
+.profileForm_accordion > div > div > .MuiAccordionSummary-content {
+    justify-content: center;
+}
+
+.profileForm_buttons > div > .MuiTypography-displayBlock {
+    display: flex;
+    justify-content: center;   
+}
+
+.profileForm_list > .MuiButton-root {
+    margin-right: 10px;
+    background-color: #fff;
+}
+
+.profileForm_linkCart {
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+    width: 100%;
+}
+
+.profileForm_fieldBtPadding {
+    padding-bottom: 10px !important;
+}
+
+.profileForm_error {
+    color: #dd4b39;
+    font-size: small;
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.profileForm_addressField > .MuiFormControl-root {
+    padding-bottom: 10px !important;
+    width: 350px;
+}
+
+.profileForm_inform {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: small;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.profileForm_label{
+    display: flex;
+    justify-content: space-between;
+}

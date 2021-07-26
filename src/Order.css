@@ -1,0 +1,82 @@
+.order {
+    display: flex;
+    justify-content: center;
+    min-height: 650px;
+    margin: 20px;
+}
+
+.order_container > .MuiTypography-root{
+    font-weight: bold;
+    width: 100%;
+}
+
+.order_paddingBt {
+    padding-bottom: 20px !important;
+}
+
+.order_dividerHeader {
+    width: 100%;
+    margin-bottom: 20px !important;
+}
+
+.order_divider {
+    width: 100%;
+    margin: 16px 0 !important;
+}
+
+.order_profile {
+    display: flex;
+}
+
+.order_profile > div > a > .MuiButton-root {
+    font-weight: bold;
+    text-transform: none;
+    border: none;
+}
+
+.order_profile > div > a > .MuiButton-root:hover {
+    border: 1px solid #3f51b5;
+}
+
+.order_profile > div > .MuiButton-root:hover {
+    border: 1px solid rgba(63, 81, 181, 0.5);
+}
+
+.order_llist {
+    display: block;
+    text-align: left;
+}
+
+.order_transit {
+    color: #A52A2A;
+}
+
+.order_listHeader > .MuiTypography-root {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.order_price {
+    color: green;
+}
+
+.order_images {
+    display: flex;
+}
+
+.order_images > .MuiAvatar-root {
+    width: 20%;
+    height: 20%;
+}
+
+.order_card {
+    margin-bottom: 20px;
+}
+
+.order_avatarPR {
+    padding-right: 10%;
+}
+
+.order_buttonPDF {
+    margin-top: 20px !important;
+}

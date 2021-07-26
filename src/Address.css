@@ -1,0 +1,126 @@
+.address {
+    display: flex;
+    justify-content: center;
+    min-height: 650px;
+    margin: 20px;
+}
+
+.address_container > .MuiTypography-root{
+    font-weight: bold;
+    width: 100%;
+}
+
+.address_paddingBt {
+    padding-bottom: 20px !important;
+}
+
+.address_dividerHeader {
+    width: 100%;
+    margin-bottom: 20px !important;
+}
+
+.address_divider {
+    width: 100%;
+    margin: 16px 0 !important;
+}
+
+.address_profile {
+    display: flex;
+}
+
+.address_profile > div > a > .MuiButton-root {
+    font-weight: bold;
+    text-transform: none;
+    border: none;
+}
+
+.address_profile > div > a > .MuiButton-root:hover {
+    border: 1px solid #3f51b5;
+}
+
+.address_profile > div > .MuiButton-root:hover {
+    border: 1px solid rgba(63, 81, 181, 0.5);
+}
+
+
+.address_list {
+    display: block;
+    text-align: left;
+}
+
+.address_listHeader > .MuiTypography-root {
+    font-weight: bold;
+}
+
+.address_avatarPR {
+    padding-right: 10%;
+}
+
+.address_buttonPDF {
+    margin-top: 20px !important;
+}
+
+.address_innerCard {
+    display: flex;
+    justify-content: space-between;
+}
+
+.address_closeIcon > .MuiButtonBase-root {
+    background-color: rgb(243, 66, 37) !important;
+    color: #fff;
+}
+
+.address_accordion {
+    padding: 10px;
+    width: 100%;
+}
+
+.address_accordion > div > div > .MuiAccordionSummary-content {
+    justify-content: center;
+}
+
+.address_buttons > div > .MuiTypography-displayBlock {
+    display: flex;
+    justify-content: center;   
+}
+
+.address_list > .MuiButton-root {
+    margin-right: 10px;
+    background-color: #fff;
+}
+
+.address_linkCart {
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+    width: 100%;
+}
+
+.address_fieldBtPadding {
+    padding-bottom: 10px !important;
+}
+
+.address_error {
+    color: #dd4b39;
+    font-size: small;
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.address_addressField > .MuiFormControl-root {
+    padding-bottom: 10px !important;
+    width: 350px;
+}
+
+.address_inform {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: small;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.address_label{
+    display: flex;
+    justify-content: space-between;
+}
